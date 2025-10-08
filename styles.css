@@ -1,4 +1,3 @@
-/* Reset */
 * {
     margin: 0;
     padding: 0;
@@ -10,10 +9,9 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: rgba(0, 0, 0, 0);
+    background-color: #f0f0f0;
 }
 
-/* Container box */
 .container {
     display: flex;
     align-items: center;
@@ -25,7 +23,6 @@ body {
     border: 4px solid black;
 }
 
-/* Circle shape */
 .red, .yellow, .green {
     width: 100px;
     height: 100px;
@@ -33,15 +30,14 @@ body {
     display: inline-block;
 }
 
-/* Colors */
-.green {
-    background-color: rgb(0, 128, 0);
+.red {
+    background-color: rgb(255, 0, 0);
 }
 
 .yellow {
     background-color: rgb(255, 255, 0);
 }
 
-.red {
-    background-color: rgb(255, 0, 0);
+.green {
+    background-color: rgb(0, 128, 0);
 }
